@@ -5,6 +5,7 @@ const loadCountries = () => {
 }
 
 const displayCoutries = countries =>{
+    console.log(countries)
     const allCountriesHTML = countries.map(country =>getCountryHTML(country) )
     // console.log(allCountriesHTML[0])
 
@@ -13,15 +14,37 @@ const displayCoutries = countries =>{
 }
 
 
-const getCountryHTML = country =>{
+// const getCountryHTML = country =>{
+//     return `
+        
+//     <div class = "country"> 
+//         <h3>${country.name.common} </h3>
+//        <img src = " ${country.flags.png}">
+//     </div>
+
+//     `
+// }
+
+
+
+
+
+const getCountryHTML = ({name , flags,area,region}) =>{
+
+    
     return `
         
     <div class = "country"> 
-        <h3>${country.name.common} </h3>
-       <img src = " ${country.flags.png}">
+        <h3>${name.common} </h3>
+        <p>${area}</p>
+        <p> ${region}</p>
+       <img src = " ${flags.png}">
     </div>
 
     `
 }
+
+
+
 
 loadCountries()
