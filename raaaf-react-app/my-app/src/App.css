@@ -36,3 +36,12 @@
     transform: rotate(-3600deg);
   }
 }
+
+
+.container{
+  border: 5px solid red;
+  background-color: aquamarine;
+  color: red;
+  border-radius: 20px;
+  padding: 20px;
+}
