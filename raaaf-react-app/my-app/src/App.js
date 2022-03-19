@@ -3,11 +3,14 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-    <Person></Person>
-    <Person></Person>
+    <Person name="mustafixz"></Person>
+    <Person name = 'rubel' nayka ="moushumi"></Person>
     <p>Rock mama React mama</p>
+    <Girl name = "bou"></Girl>
     <Girl></Girl>
-    <Girl></Girl>
+
+    <Friend movie ="shingum" phone = '1032738'></Friend>
+    <Friend movie = " 3 idiots" phone = '01775023405'></Friend>
     <h1>Hey mama hey</h1>
     </div>
 
@@ -17,23 +20,40 @@ function App() {
   );
 }
 
-function Person(){
+function Person(props){
+  
   return (
     <div className = 'person'>
-    <h1>Shakib Al hasan</h1>
-    <p>Profession : Cricketer</p>
+    <h1>{props.name}</h1>
+    <p>Profession : {props.nayka}</p>
   </div>
   )
 }
 
 
 
-function Girl(){
+function Girl(props){
+ 
   return(
     <div className="person">
       <h1>NAzifa TAsnim</h1>
       <p>Job : kichu kore na</p>
+      
     </div> 
+  )
+}
+
+
+
+function Friend (props){
+  console.log(props)
+  return(
+    <div>
+      <h3>Name : Ajay Devgun</h3>
+      <p>Job : Maramari</p>
+      <p>phone : {props.phone}</p>
+      <p>Movie  : {props.movie}</p>
+    </div>
   )
 }
 
@@ -48,4 +68,10 @@ export default App;
 
 /* 
 Summary : normal function er moto react e component banano jaai. dorkar e reuse kora jaai
+
+
+component jkhon banaai tokhon chaile function e dynamic vabe data pathano jaai. eta props diye pathaay... evabe e similar in look different in data banano hoi... data pathay props diye
+
+
+
 */
