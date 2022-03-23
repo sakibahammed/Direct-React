@@ -1,0 +1,24 @@
+npm = > node package manager
+
+npx ==> node package execute
+
+terminal -- cli == command line interface
+
+create-react-app ===> Create React App is a comfortable environment for learning React
+
+or react app creatation er command line interface
+
+
+Babel = Free and open source javascript transpiller ( Translate compiler ) jaa esc er latest version k previous version e convert kore. 
+
+
+
+
+What is JSX = { jsx holo javscript er syntactic sugar
+// Javascript xml
+// jsx diye html code gulo javscript er modhe sohoj e likha jaai.
+html code e javscript expression gulo use kora hoi
+
+// Markup kanguage & logic k alada file e na rekhe ek e sth proyojon moto ek e file e  rakha jaai and er jnne react component use kora hoi.
+
+}
