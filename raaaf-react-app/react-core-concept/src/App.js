@@ -19,13 +19,15 @@ function App() {
       {/* <Product name="laptop" price="124242"></Product>
       <Product name="Phone" price='322'></Product>
       <Product name="Watch" price='3500'></Product> */}
-      <Counter></Counter>
+      {/* <Counter></Counter> */}
+
+      <ExternalUsers></ExternalUsers>
 
 
-{/* 
-      {
+ 
+      {/* {
         products.map(product => <Product name= {product.name} price ={product.price}></Product>)
-      } */}
+      }  */}
     </div>
   );
 }
@@ -42,7 +44,7 @@ function App() {
 
 
 function Counter(){
-  const [count,setCount] = useState(55);
+  // const [count,setCount] = useState(55);
   // console.log(setCount)
 
 
@@ -51,22 +53,32 @@ function Counter(){
   //   setCount (newCount); 
   // }
 
-  const increaseCount = () =>{
+  // const increaseCount = () =>{
     
-    setCount (count+1); 
-  }
-  const decreaseCount = () => {
-    setCount(count-1);
-  }
+  //   setCount (count+1); 
+  // }
+  // const decreaseCount = () => {
+  //   setCount(count-1);
+  // }
  
-  return(
-    <div>
-      <h1>Count :{count}</h1>
+  // return(
+  //   <div>
+  //     <h1>Count :{count}</h1>
 
-      <button onClick={increaseCount}>Increase</button>
-      <button onClick={decreaseCount}>Decrease</button>
-    </div>
-  )
+  //     <button onClick={increaseCount}>Increase</button>
+  //     <button onClick={decreaseCount}>Decrease</button>
+  //   </div>
+  // )
+
+
+
+  const ExternalUsers = () =>{
+    return(
+      <div>
+      <h1>External Users</h1>
+      </div>
+    )
+  }
 }
 
 export default App;

@@ -1,0 +1,145 @@
+[
+  {
+    "keys": "+880",
+    "id": 1,
+    "image": "./images/Hasina.png",
+    "name": "Sheikh Hasina",
+    "gender": "Female",
+    "age": 75,
+    "country": "Bangladesh",
+    "headOfGovt": "Prime Minister",
+    "Salary": 500000
+  },
+
+  {
+    "keys": "+91",
+    "id": 2,
+    "image": "./images/Modi.jpg",
+    "name": "Narenda Modi",
+    "gender": "Male",
+    "age": 80,
+    "country": "India",
+    "headOfGovt": "Prime Minister",
+    "Salary": 60000
+  },
+
+  {
+    "keys": "+1",
+    "id": 3,
+    "image": "./images/Trudeau.jpg",
+    "name": "Justin Trudeau",
+    "gender": "Male",
+    "age": 60,
+    "country": "Canada",
+    "headOfGovt": "Prime Minister",
+    "Salary": 70000
+  },
+
+  {
+    "keys": "+64",
+    "id": 4,
+    "image": "./images/Jacinda.jpg",
+    "name": "Jacinda Ardern",
+    "gender": "Female",
+    "age": 40,
+    "country": "New Zealand",
+    "headOfGovt": "Prime Minister",
+    "Salary": 620000
+  },
+
+  {
+    "keys": "+55",
+    "id": 5,
+    "image": "./images/Brazil.jpg",
+    "name": "Jair Bolsonaro",
+    "gender": "Male",
+    "age": 60,
+    "country": "Brazil",
+    "headOfGovt": "Prime Minister",
+    "Salary": 60000
+  },
+
+  {
+    "keys": "+49",
+    "id": 6,
+    "image": "./images/Angela.jpg",
+    "name": "Angela Merkel",
+    "gender": "Female",
+    "age": 60,
+    "country": "Germany",
+    "headOfGovt": "Prime Minister",
+    "Salary": 70000
+  },
+
+  {
+    "keys": "+92",
+    "id": 7,
+    "image": "./images/Imran.jpg",
+    "name": "Imran Khan",
+    "gender": "Male",
+    "age": 60,
+    "country": "Pakistan",
+    "headOfGovt": "Prime Minister",
+    "Salary": 50000
+  },
+
+  {
+    "keys": "+61",
+    "id": 8,
+    "image": "./images/Aus.png",
+    "name": "Scott Morrison",
+    "gender": "Male",
+    "age": 60,
+    "country": "Australia",
+    "headOfGovt": "Prime Minister",
+    "Salary": 60000
+  },
+
+  {
+    "keys": "+44",
+    "id": 9,
+    "image": "./images/Boris.jpg",
+    "name": "Boris Johnson",
+    "gender": "Male",
+    "age": 60,
+    "country": "United Kingdom",
+    "headOfGovt": "Prime Minister",
+    "Salary": 60000
+  },
+
+  {
+    "keys": "+60",
+    "id": 10,
+    "image": "./images/Ismail.jpg",
+    "name": "Ismail Sabri Yaakob",
+    "gender": "Male",
+    "age": 60,
+    "country": "Malaysia",
+    "headOfGovt": "Prime Minister",
+    "Salary": 80000
+  },
+
+  {
+    "keys": "+94",
+    "id": 11,
+    "image": "./images/Mahinda.jpg",
+    "name": "Mahinda Rajapaksa",
+    "gender": "Male",
+    "age": 60,
+    "country": "Sri Lanka",
+    "headOfGovt": "Prime Minister",
+    "Salary": 50000
+  },
+
+  {
+    "keys": "+256",
+    "id": 12,
+    "image": "./images/Ruhakana.jpg",
+    "name": "Ruhakana Rugunda",
+    "gender": "Male",
+    "age": 60,
+    "country": "Uganda",
+    "headOfGovt": "Prime Minister",
+    "Salary": 40000
+  }
+]

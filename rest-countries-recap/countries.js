@@ -13,6 +13,7 @@ const displayCoutries = countries =>{
     country.innerHTML = allCountriesHTML.join(' ')
 }
 
+//fs
 
 // const getCountryHTML = country =>{
 //     return `

@@ -1,0 +1,63 @@
+npm = > node package manager
+
+npx ==> node package execute
+
+terminal -- cli == command line interface
+
+create-react-app ===> Create React App is a comfortable environment for learning React
+
+or react app creatation er command line interface
+
+
+Babel = Free and open source javascript transpiller ( Translate compiler ) jaa esc er latest version k previous version e convert kore. 
+
+
+
+
+What is JSX = { jsx holo javscript er syntactic sugar
+// Javascript xml
+// jsx diye html code gulo javscript er modhe sohoj e likha jaai.
+html code e javscript expression gulo use kora hoi
+
+// Markup kanguage & logic k alada file e na rekhe ek e sth proyojon moto ek e file e  rakha jaai and er jnne react component use kora hoi.
+
+}
+
+
+What is Component : Components are like Javascript functions.
+
+React er data flow holo unidirectional.
+
+Componenent holo website er choto choto part.. props unidirectional ... ek dike jaai.. eta k props deling o bole
+
+
+
+///====>  hook holo ekta function..jeta react er kichu jinish impliment kore deii. code optimize kore. 
+
+
+
+Interview Question : ==> 
+
+Props vs state : =>
+
+Props =====
+
+props are read-only
+props can not be modified / changed / can be send
+
+State =====
+
+State changes can be asynchronus
+state can be modified using this.setState // state can not be changed... 
+
+
+
+
+// clas ====>
+
+
+class component use kora hoi rcc use kore and ekhane main diff holo 
+
+function component e direct return kore. kintu  class component e render() use kore er moddho diye return kore/.. ekhane tablet holo rcc ==> react class component 
+
+
