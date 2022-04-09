@@ -13,6 +13,7 @@ const Header = () => {
           <Link to='/'>Home</Link>
           <Link to='/friends'>Friends</Link>
           <Link to='/about'>About</Link>
+          <Link to='/posts'>Post</Link>
         
 
         {/* link anchor er against e use kora hoice jaate reload er jhamela na thake */}
