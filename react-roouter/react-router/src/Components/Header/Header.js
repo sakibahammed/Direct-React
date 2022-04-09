@@ -6,9 +6,13 @@ const Header = () => {
     <div>
       <h1>Welcome to my fancy routing website routing !</h1>
       <nav>
-          <CustomLink to="/">Home</CustomLink>
+          {/* <CustomLink to="/">Home</CustomLink>
           <CustomLink to="/about">about</CustomLink>
-          <CustomLink to="/friends">friend</CustomLink>
+          <CustomLink to="/friends">friend</CustomLink> */}
+
+          <Link to='/'>Home</Link>
+          <Link to='/friends'>Friends</Link>
+          <Link to='/about'>About</Link>
         
 
         {/* link anchor er against e use kora hoice jaate reload er jhamela na thake */}
