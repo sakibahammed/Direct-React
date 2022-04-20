@@ -16,7 +16,7 @@ const ReviewItem = (props) => {
                     <p><small>Quantity : {quantity}</small></p>
                 </div>
                 <div className="delete-container">
-                    <button>delete</button>
+                    <button>Delete</button>
                 </div>
            </div>
         </div>
