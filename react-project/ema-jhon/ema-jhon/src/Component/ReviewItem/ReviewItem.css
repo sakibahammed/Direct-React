@@ -4,4 +4,45 @@
     margin-top: 10px;
     margin-right: 10px;
     padding: 5px;
+    
+}
+.review-item-container{
+    display: flex;
+}
+
+
+
+.review-item img{
+    width: 91px;
+}
+.review-item{
+    display: flex;
+}
+.review-item-details p{
+    margin: 0;
+}
+
+.review-item-details-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.delete-container{
+    display: flex;
+    align-items: center;
+}
+.delete-icon{
+    color: rgba(235, 87,87, 1);
+    
+}
+
+.delete-btn{
+    background-color: rgba(235, 87,87, 0.3);
+    border: 0;
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    font-size: 31px;
+    cursor: pointer;
 }
