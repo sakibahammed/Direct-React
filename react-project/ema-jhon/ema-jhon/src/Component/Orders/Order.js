@@ -1,10 +1,12 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import useCart from '../../Hooks/useCart';
 import useProducts from '../../Hooks/useProducts';
+import { removeFromDb } from '../../utilities/fakedb';
 import Cart from '../Cart/Cart';
 import Product from '../Product/Product';
 import ReviewItem from '../ReviewItem/ReviewItem';
-
+import './Order.css';
 
 const Order = () => {
     const [products , setProducts] = useProducts();
@@ -14,10 +16,11 @@ const Order = () => {
         console.log(product)
         const rest = cart.filter(pd=>pd.id !==product.id);
         setCart(rest);
+        removeFromDb(product.id)
     }
     return (
         <div className='shop-container'>
-            <div>
+            <div className='review-items-container'>
                 {
                     cart.map(product => <ReviewItem
                     key={product.id}
@@ -28,7 +31,11 @@ const Order = () => {
                 }
             </div>
             <div className="cart-container">
-                <Cart cart= {cart}></Cart>
+                <Cart cart= {cart}>
+                    <Link to='/inventory'>
+                        <button>Proceed CheckOut</button>
+                    </Link>
+                </Cart>
             </div>
         </div>
     );
